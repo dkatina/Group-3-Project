@@ -1,0 +1,80 @@
+main{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    justify-content: center;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+/* ------Left-Side------ */
+
+.left-side{
+    background-image: url(../images/nav_side.jpg);
+    background-size: cover;
+    color: white;
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 4%;
+}
+.container{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.underline{
+    border: 1px solid white;
+    padding-right: 40px;
+}
+.container > p{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.container > ul{
+    list-style: none;
+    padding-top: 0;
+    margin-top: 0;
+    padding-left: 18px
+} 
+.container > ul > li{
+    padding-top: 3px;
+}
+.container > img{
+    width: 100%;
+}
+.container > .notes{
+    border: 1px solid white;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+
+/* ------Right-Side------- */
+
+.right-side{
+    border: 1px solid black;
+    margin-right: 5%;
+}
+.pictures{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 5%;
+    grid-template-areas: 
+        "one two"
+        "three four"
+    ;
+}
+.one{
+    grid-area: one;
+}
+.two{
+    grid-area: two;
+}
+.three{
+    grid-area: three;
+}
+.four{
+    grid-area: four;
+}
+.pictures div img{
+    width: 100%;
+}
