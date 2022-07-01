@@ -1,0 +1,43 @@
+main{
+    display: flex;
+    flex-direction: column;
+    column-gap: 5%;
+    width: 70%;
+    margin: 0 auto;
+}
+.top-box{
+    display: flex;
+    column-gap: 2%;
+    height: 70vh;
+}
+.bottom-box{
+    display: flex;
+    column-gap: 2%
+}
+.bottom-box img{
+    width: 100%;
+}
+.feed{
+    background-image: url(../images/nav_side.jpg);
+    background-size: cover;
+    overflow-y: scroll;
+    width: 20%;
+    color: white;
+    
+}
+.container{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.top-box img{
+    width: 80%;
+}
+.web{
+    width: 80%;
+}
+.base p{
+    margin: 1px;
+}
+.base h4{
+    margin-bottom: 5px;
+}
