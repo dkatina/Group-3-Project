@@ -1,16 +1,202 @@
+body {
+    background-image: url(https://res.cloudinary.com/dxfkurrkj/image/upload/v1656705163/nza_background_wphcoh.jpg);
+}
+.new-body {
+    background-color: white;
+    max-width: 80%;
+    margin: 3% auto;
+}
 
+/* start of header */
+.nav-links {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+}
+
+.navbar-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    white-space: nowrap;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.nav-links :hover {
+    color: rgb(155, 155, 155);    
+}
+
+.nav-logo {
+    display: flex;
+    height: 150px;
+    
+}
+.logo{
+    border-radius: 30%;
+}
+
+
+hr {
+    border: none;
+    height: 3px;
+    color: #333; 
+    background-color: #333; 
+}
+
+/* For verticle lines between nav links */
+
+.navbar-flex li{
+    display: flex;
+    position: relative;
+    float: right;
+    padding: 0 30px;
+}
+
+.navbar-flex ul li::after {
+    position: absolute;
+    width: 2px;
+    right: 0;
+    content: ' ';
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/* End of lines*/
+
+.no-line::after{
+    display: none;
+}
+
+.login-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 52%;
+    padding-top: 5px;
+    position: absolute;
+    top: 5.4%;
+    right: 15%;
+}
+
+.login-section ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 500px;
+    color: black;
+}
+
+.login-section ul li {
+    list-style-type: none;
+}
+
+.login-section ul {
+    display: flex;
+    border: 1px solid rgb(208, 208, 208);
+    border-radius: 0  0 6px 6px;
+    padding: 9px;
+    column-gap: 0px;
+    background-color: rgb(208, 208, 208);
+}
+
+.login-section li{
+    display: flex;
+    position: relative;
+    float: right;
+    padding: 0px 10px 0px 10px;
+}
+
+.login-section ul li::after {
+    position: absolute;
+    width: 2px;
+    right: 0;
+    content: ' ';
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.login-section :hover {
+    color: white;    
+}
+
+hr {
+    border: none;
+    height: 3px;
+    color: #333; 
+    background-color: #333; 
+}
+
+/* For verticle lines between nav links */
+
+.footer-flex li{
+    display: flex;
+    position: relative;
+    float: right;
+    padding: 0 30px;
+}
+
+.footer-flex ul li::after {
+    position: absolute;
+    width: 2px;
+    right: 0;
+    content: ' ';
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    transform: rotate(90deg);
+}
+
+.footer-links {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-links li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    white-space: nowrap;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.footer-links :hover {
+    color: lightslategrey;    
+}
+
+
+
+/* content */
 main{
     display: flex;
     flex-direction: row;
-    width: 75%;
+    width: 86.8%;
     justify-content: center;
-    column-gap: 25px;
+    column-gap: 10%;
+    margin: 0 auto;
+    font-size: 18px;
 }    
 
 .container1{
-    background-color: #81302cd7;
+    background-image: url(../images/nav_side.jpg);
     align-content:center;
     padding: 20px;
+    padding-bottom: 20%;
 }
 
 .container1 img{
@@ -45,19 +231,25 @@ main{
 
 .container1 p{
     color: white !important;
+    
 }
 
 .underline{
-    border: 1px solid white;
+    background-color: white;
     margin-top: 3px;
+    opacity: 1;
 }
 
 .column2{
-    display:flex;
+    /* display:flex;
     border: 1px solid white;
     padding-right: 1px;
     height: 50vh;
-    align-content: flex-start;
+    align-content: flex-start; */
+    padding: 0 2%;
+}
+.column2 img{
+    width: 100%;
 }
 
 .column1 hr{

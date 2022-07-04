@@ -1,25 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/template.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+    <title>Cosmic Law</title>
     <link rel="stylesheet" href="./css/contact.css">
-
 </head>
-
 <body>
-    <main>
+    <!--This part is the "new body" to give us a nice cohesive white background-->
+    <div class="new-body">
+    <header>
+        <!-- Logo, login and nav bar live here -->
+        <div class="container">        
+            <div class="nav-logo">
+                    <img class="logo" src="./images/Law-logo.png" alt="Law firm logo">
+                    <div class="login-section" >
+                        <ul>
+                            <li class="no-line"><a href="https://dkatina.github.io/w1d3HW/">Login</a></li>
+                        </ul>
+                    </div>
+            </div>
+            <hr>
+            <nav class="navbar-flex">
+                <ul class="nav-links">
+                    <li><a href="who_we_are.html">WHO WE ARE</a></li>
+                    <li><a href="what_we_do.html">WHAT WE DO</a></li>
+                    <li><a href="#">NEWS & EVENTS</a></li>
+                    <li><a href="where_we_work.html">WHERE WE WORK</a></li>
+                    <li class="no-line"><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </nav>
+            <hr>
+        </div>
+        <!-- end -->
+      <!--your code here-->
+      <main>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="container1" style="color:white">
                         <p>CONTACT US</p>
-                        <hr>
+                        <hr class="underline">
                         <p>Directions/Parking</p>
                         <p>Career Opportunities</p>
                         <img src="./images/content-navlink-news.jpg" alt="">
@@ -30,7 +57,7 @@
                 </div>
 
 
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="column2">
                         <p>
                             <img src="./images/content-05-contact.jpg" alt="">
@@ -58,7 +85,7 @@
                 </div>
 
 
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="column3">
                         <img src="./images/content-link-where.jpg" alt="">
                         <br>
@@ -77,9 +104,24 @@
                 </div>
             </div>
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"></script>
-</body>
+        <footer>
+      <!-- Footer bar lives here -->
+            <div class="container">
+                <hr>
+                <nav class="footer-flex">
+                    <ul class="footer-links">
+                        <li><a href="#">WHO WE ARE</a></li>
+                        <li><a href="#">WHAT WE DO</a></li>
+                        <li><a href="#">NEWS & EVENTS</a></li>
+                        <li><a href="#">WHERE WE WORK</a></li>
+                        <li class="no-line"><a href="#">CONTACT US</a></li>
+                    </ul>
+                </nav>
+            </div>
 
+            <!-- Footer Content - end -->
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
 </html>

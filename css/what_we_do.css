@@ -82,7 +82,7 @@ hr {
     width: 52%;
     padding-top: 5px;
     position: absolute;
-    top: 5.3%;
+    top: 5.4%;
     right: 15%;
 }
 
@@ -101,7 +101,7 @@ hr {
 .login-section ul {
     display: flex;
     border: 1px solid rgb(208, 208, 208);
-    border-radius: 6px;
+    border-radius: 0 0 6px 6px;
     padding: 9px;
     column-gap: 0px;
     background-color: rgb(208, 208, 208);
@@ -183,7 +183,7 @@ main{
     flex-direction: row;
     justify-content: center;
     margin: 0 auto;
-    width: 90%;
+    width: 85%;
 }
 
 /* ------Left-Side------ */
@@ -228,7 +228,8 @@ main{
 /* ------Right-Side------- */
 
 .right-side{
-    margin-right: 5%;
+    font-size: 20px;
+    width: 275%;
 }
 .pictures{
     display: grid;
