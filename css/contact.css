@@ -1,0 +1,67 @@
+
+main{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    justify-content: center;
+    column-gap: 25px;
+}    
+
+.container1{
+    background-color: #81302cd7;
+    align-content:center;
+    padding: 20px;
+}
+
+.container1 img{
+    width: 100%;
+}
+
+.column3{
+    background-color: #ddd6d0;
+    padding: 20px;
+}
+
+.column3 img{
+    width: 100%;
+    
+}
+
+.ID{
+    color: #81302cd7
+}
+
+.ED{
+    color: black;
+}
+
+.ID2{
+
+}
+
+.BD{
+    font-weight: bold;
+}
+
+.container1 p{
+    color: white !important;
+}
+
+.underline{
+    border: 1px solid white;
+    margin-top: 3px;
+}
+
+.column2{
+    display:flex;
+    border: 1px solid white;
+    padding-right: 1px;
+    height: 50vh;
+    align-content: flex-start;
+}
+
+.column1 hr{
+    color: white;
+    background-color: white;
+    
+}
