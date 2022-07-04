@@ -36,7 +36,8 @@ body {
 
 .nav-logo {
     display: flex;
-    height: 200px;
+    height: 100px;
+    width: 200px;
     
 }
 .logo{
